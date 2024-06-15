@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "dev": "firechatssr"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

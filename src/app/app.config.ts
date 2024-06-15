@@ -19,6 +19,6 @@ export const appConfig: ApplicationConfig = {
       provideStorage(() => getStorage()),
       provideMessaging(() => getMessaging())
     ),
-    provideRouter(routes)
+    provideRouter(routes), provideFirebaseApp(() => initializeApp({"projectId":"firechatssr","appId":"1:956860917205:web:0223fc06dab493dfb3895c","storageBucket":"firechatssr.appspot.com","apiKey":"AIzaSyBfIKzE5tJhADPjcnCX6nPmF72PywpWQRo","authDomain":"firechatssr.firebaseapp.com","messagingSenderId":"956860917205"})), provideAuth(() => getAuth()), provideFirestore(() => getFirestore()), provideFunctions(() => getFunctions()), provideMessaging(() => getMessaging())
   ],
 };
